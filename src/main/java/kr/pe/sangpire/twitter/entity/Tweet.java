@@ -16,4 +16,20 @@ public class Tweet {
   @NotNull
   private String contents;
 
+  public Long getId() {
+    return this.id;
+  }
+
+  public void setId(Long id) {
+    this.id = id;
+  }
+
+  public String getContents() {
+    return this.contents;
+  }
+
+  public void setContents(String contents) {
+    this.contents = contents;
+  }
+
 }
