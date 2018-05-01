@@ -1,0 +1,9 @@
+server:
+  error:
+    include-exception: true
+spring:
+  freemarker:
+    settings:
+      auto_import:
+
+

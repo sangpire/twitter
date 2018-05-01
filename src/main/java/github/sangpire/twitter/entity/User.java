@@ -1,4 +1,4 @@
-package kr.pe.sangpire.twitter.entity;
+package github.sangpire.twitter.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

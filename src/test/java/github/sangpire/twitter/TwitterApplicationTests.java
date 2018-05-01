@@ -1,4 +1,4 @@
-package kr.pe.sangpire.twitter;
+package github.sangpire.twitter;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

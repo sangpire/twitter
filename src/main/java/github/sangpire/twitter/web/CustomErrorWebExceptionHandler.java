@@ -1,4 +1,4 @@
-package kr.pe.sangpire.twitter.web;
+package github.sangpire.twitter.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.web.ResourceProperties;
@@ -7,7 +7,6 @@ import org.springframework.boot.web.reactive.error.ErrorAttributes;
 import org.springframework.context.ApplicationContext;
 import org.springframework.http.MediaType;
 import org.springframework.http.codec.ServerCodecConfigurer;
-import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.server.RequestPredicates;
 import org.springframework.web.reactive.function.server.RouterFunction;
@@ -17,7 +16,7 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 import java.util.HashMap;
 import java.util.Map;
 
-@Component
+//@Component
 public class CustomErrorWebExceptionHandler extends AbstractErrorWebExceptionHandler {
 
     // Define constructor here
